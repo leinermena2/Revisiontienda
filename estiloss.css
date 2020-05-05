@@ -1,0 +1,117 @@
+body {
+    font-family: 'Julius Sans One', sans-serif;
+    margin: 0;
+   background: url(imagen.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+* {
+    box-sizing: border-box;
+}
+img {
+  filter: blur(100px);
+}
+.contenedor{
+    width: 100%;
+    padding: 15px;
+}
+.formulario{
+    background: #fff;
+    margin-top: 150px;
+    padding: 3px;
+}
+h1{
+    text-align: center;
+    color: #FA6BC2;
+    font-size: 40px;
+}
+input[type="text"],
+input[type="password"]{
+    font-size: 20px;
+    width: 82%;
+    padding: 10px;
+    border: none;
+}
+.input-contenedor{
+    margin-bottom: 15px;
+    border: 1px solid #aaa;
+}
+.icon{
+    min-width: 50px;
+    text-align: center;
+    color: #999;
+}
+.button{
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background:  #FA6BC2;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button:hover{
+    background: #FA6BC2;
+}
+p{
+    text-align: center;
+}
+.link{
+    text-decoration: none;
+      color: #FA6BC2;
+    font-weight: 600;
+}
+.button2 {
+    border: none;
+    width: 8%;
+    
+    font-size: 20px;
+    background:  #FA6BC2;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Julius Sans One'
+    color:white;
+    text-decoration: none;
+}
+.link:hover{
+     color: cadetblue;
+}
+@media(min-width:768px)
+{
+    .formulario{
+        margin: auto;
+        width: 500px;
+        margin-top: 150px;
+        border-radius: 2%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
